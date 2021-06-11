@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 export default function App() {
-  const [editMode, setEditMode] = React.useState(false);
-  const [formText, setFormText] = React.useState("This is my text");
+  const [editMode, setEditMode] = useState(false);
+  const [formText, setFormText] = useState("This is my text");
 
   function handleChangeForm(e) {
     setFormText(e.target.value);
