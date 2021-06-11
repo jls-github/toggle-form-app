@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div>
-      Double click to edit
+      Click Below to Edit
       {editMode ? (
         <div>
           <input name="form" value="form" onChange={handleChangeForm} />{" "}
