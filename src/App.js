@@ -17,7 +17,7 @@ export default function App() {
       Click Below to Edit
       {editMode ? (
         <div>
-          <input name="form" value="form" onChange={handleChangeForm} />{" "}
+          <input name="form" value={formText} onChange={handleChangeForm} />{" "}
           <button onClick={toggleEditMode}>Toggle Back</button>
         </div>
       ) : (
